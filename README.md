@@ -1,12 +1,12 @@
-# 📘 Predição de Dificuldade de Itens do ENEM via Texto
+# Predição de Dificuldade de Itens do ENEM via Texto
 
 Este projeto investiga a viabilidade de prever o parâmetro de **dificuldade (b)** de questões do ENEM com base em suas características textuais e presença de elementos visuais, utilizando técnicas de Processamento de Linguagem Natural (PLN).
 
-## 🎯 Objetivo
+## Objetivo
 
 Desenvolver um modelo de regressão capaz de predizer o nível de dificuldade de uma questão do ENEM **antes de sua aplicação**, com foco no conteúdo textual. A proposta busca auxiliar na elaboração de provas mais equilibradas e na preparação estratégica de estudantes.
 
-## 🧠 Contexto
+## Contexto
 
 O ENEM utiliza a **Teoria de Resposta ao Item (TRI)** para garantir equidade e comparabilidade entre diferentes edições da prova. A TRI considera:
 
@@ -16,7 +16,7 @@ O ENEM utiliza a **Teoria de Resposta ao Item (TRI)** para garantir equidade e c
 
 Este projeto foca na predição do parâmetro **b** com base em dados textuais, sem depender das respostas dos participantes.
 
-## 🗂️ Dados Utilizados
+## Dados Utilizados
 
 - **Microdados oficiais do ENEM** dos anos:
   - 2019, 2020, 2022 e 2023
@@ -24,7 +24,7 @@ Este projeto foca na predição do parâmetro **b** com base em dados textuais, 
   - INEP
   - Kaggle
 
-## 🛠️ Tecnologias e Métodos
+## Tecnologias e Métodos
 
 - Python
 - Pandas, Scikit-learn
@@ -34,7 +34,7 @@ Este projeto foca na predição do parâmetro **b** com base em dados textuais, 
   - Coesão textual
   - Diversidade lexical
 
-## 📊 Resultados
+## Resultados
 
 Os modelos desenvolvidos com métricas linguísticas tradicionais apresentaram **baixa capacidade preditiva**, sugerindo que o conteúdo textual isolado não é suficiente para estimar com precisão o parâmetro de dificuldade. A pesquisa, no entanto, aponta caminhos promissores para abordagens futuras com modelos mais complexos ou embeddings semânticos.
 
